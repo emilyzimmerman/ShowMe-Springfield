@@ -1,0 +1,11 @@
+
+.image {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
