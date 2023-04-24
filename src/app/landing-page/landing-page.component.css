@@ -1,0 +1,22 @@
+.container {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/590792541b10e3089ee8c363/1494357989943-64TSN3J2H91XCQXG6HMZ/Downtown+Springfield+CID');
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size:3rem;
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+}
