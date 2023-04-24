@@ -1,0 +1,95 @@
+.login-container {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3B9CD1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'OpenSans-Bold';
+}
+
+h3 {
+  font-family: 'OpenSans-Regular';
+}
+
+p {
+  font-family: 'OpenSans-Regular';
+}
+
+form {
+  background-color: #647787;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'OpenSans-Regular';
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #DCE1E3;
+  color: #fff;
+}
+
+button {
+  background-color: #3B9CD1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'OpenSans-Bold';
+}
+
+button:hover {
+  background-color: #DDE2E4;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: #3B9CD1;
+  font-weight: bold;
+}
+
+.background-image {
+  background-image: ('');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5; /* adjust this value to change the opacity of the image */
+  z-index: -1;
+}
+
